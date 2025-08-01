@@ -1,0 +1,30 @@
+========================================================================
+				Change Log SIKOIN
+========================================================================
+------------------------------------------------------------------------
+Update versi 1.0.4											27/06/2022
+------------------------------------------------------------------------
+1. Perbaikan bug pada menu data donatur jika data kotak kosong
+------------------------------------------------------------------------
+Update versi 1.0.3											22/06/2022
+------------------------------------------------------------------------
+1. Penambahan form input nomor kotak, petugas dan tanggal penyebaran pada tambah data donatur
+
+------------------------------------------------------------------------
+Update versi 1.0.2											12/02/2022
+------------------------------------------------------------------------
+1. Perbaikan Bug response pada saat penambahan data Donatur
+2. Perbaikan tampilkan data donatur pada saat tambah penugasan 
+3. Perbaikan fitur pencarian data donatur
+
+------------------------------------------------------------------------
+Update versi 1.0.1											09/02/2022
+------------------------------------------------------------------------
+1. Perbaikan Bug pada penambahan data Karyawan (no respon saat mengisi data tidak lengkap)
+2. Perbaikan pada submenu Data Master di level Admin (Submenu Pengguna dihide di level admin)
+3. Pengurangan kolom inputan nama pada penambahan data Pengguna
+4. Perbaikan fitur hapus pada Pengguna
+5. Menu Penugasan -> Tambah munculkan semua nama donatur dan ubah tombol ketika kondisi sudah dijemput 
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------

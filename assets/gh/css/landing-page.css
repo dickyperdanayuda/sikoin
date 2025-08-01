@@ -1,0 +1,354 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.9 (https://startbootstrap.com/theme/landing-page)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+/* Smartphones (portrait) ----------- */
+/* @media only screen and (max-width : 420px) { */
+	/* header.masthead { */
+		/* position: relative; */
+		/* background-color: #024a3f; */
+		/* border-bottom-left-radius: 50px; */
+		/* border-bottom-right-radius: 50px; */
+		/* /* background: url("../img/bg-landing.png") no-repeat center top; */ 
+		/* background-size: contain; */
+		/* padding-top: 8rem; */
+		/* padding-bottom: 8rem; */
+	/* } */
+/* } */
+
+/* @media only screen and (max-width : 1824px) { */
+	/* header.masthead { */
+		/* position: relative; */
+		/* background-color: #024a3f; */
+		/* border-bottom-left-radius: 150px; */
+		/* border-bottom-right-radius: 150px; */
+		/* /* background: url("../img/bg-landing.png") no-repeat center top; */ 
+		/* background-size: contain; */
+		/* padding-top: 8rem; */
+		/* padding-bottom: 8rem; */
+	/* } */
+/* } */
+body {
+	background-color:#f0f0f0;
+}
+
+.masthead {
+	position: relative;
+	background-color: #fff;
+	border-radius: 10px;
+	/* border-bottom-right-radius: 20px; */
+	/* background: url("../img/bg-header.png") no-repeat center top; */
+	background-size: contain;
+	/* padding-top: 1rem; */
+	/* padding-bottom: 0px; */
+}
+
+.standar {
+	position: relative;
+	background-color: #fff;
+	border-radius: 10px;
+	background-size: contain;
+}
+
+.deskripsi {
+	position: relative;
+	background-color: #fff;
+	border-radius: 10px;
+	background-size: contain;
+	border-top: 5px solid #3e3e3e;
+}
+
+.content-text {
+	font-size:20px;
+}
+
+.info-text {
+	font-size:14px;
+}
+
+.kaki {
+	position: relative;
+	/* background-color: #024a3f; */
+	border-radius: 150px;
+	border-radius: 150px;
+	background: url("../img/bg-kuburan-jadi.png") no-repeat center top;
+	background-size: cover;
+	z-index: -1;
+	margin-bottom:20px;
+	/* padding-top: 1rem; */
+	/* padding-bottom: 0px; */
+}
+
+.bgkaki {
+	position: relative;
+	/* background-color: #024a3f; */
+	border-top-left-radius: 150px;
+	border-top-right-radius: 150px;
+	background-size: cover;
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(0, 151, 19, 0.1);
+	background: url("../img/bg-kuburan.jpg") no-repeat center bottom;
+	/* padding-top: 1rem; */
+	/* padding-bottom: 0px; */
+}
+
+.bg-float{
+	position:fixed;
+	width:100%;
+	height:60px;
+	bottom:0px;
+	background-color:#fff;
+	opacity:0.7;
+	text-align:center;
+	z-index:999999 !important
+}
+
+.float{
+	position:fixed;
+	width:100%;
+	height:60px;
+	bottom:0px;
+	z-index:999999 !important
+}
+
+.bg-lr {
+	background-color: #00ab58; /* For browsers that do not support gradients */
+	background-image: linear-gradient(to right, #00ab58, #82c34c);
+	border-radius: 50px;
+}
+
+.bg-rl {
+	background-color: #00ab58; /* For browsers that do not support gradients */
+	background-image: linear-gradient(to left, #00ab58, #82c34c);
+	border-radius: 50px;
+}
+
+.bg-text {
+	background-color: #00ab58; /* For browsers that do not support gradients */
+	background-image: linear-gradient(to bottom right, #00ab58, #82c34c);
+	border-radius: 50px;
+}
+
+.main-text {
+	color: #024a3f; 
+}
+
+.sub-text {
+	color: #82c34c; 
+}
+
+.kapital {
+	text-transform: capitalize; 
+}
+
+.bg-video {
+	background-color: #00ab58; /* For browsers that do not support gradients */
+	background-image: linear-gradient(to bottom right, #00ab58, #82c34c);
+	border-radius: 25px;
+}
+
+.frame-video {
+	border-radius: 50px;
+    overflow: hidden;
+}
+
+.video-cover {
+	border-radius: 10px;
+    overflow: hidden;
+}
+
+.bg-mui {
+	background-image:url('../img/bg-mui.png');
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	height: 200px;
+}
+
+.logo-mui {
+	background-image:url('../img/logo-mui.png');
+	background-position:center;
+	background-size:contain;
+	background-repeat:no-repeat;
+	height: 200px;
+}
+
+.bg-main {
+	background-color: #024a3f; 
+	border-radius:150px;
+	color:#82c34c;
+	text-transform:uppercase;
+	padding: 10px 20px 10px 20px;
+	font-size:20px;
+	font-family:montserratmedium;
+	width:auto;
+	font-weight:bold;
+}
+
+.bg-caption {
+	background-color: #000; 
+	width:100%;
+	height:350px;
+	position:absolute;
+	top:-10cm;
+	opacity:0.5;
+}
+
+.item-bg {
+	background-color: #024a3f; 
+	border-radius:25px;
+	color:#82c34c;
+	text-transform:uppercase;
+	padding: 10px 20px 10px 20px;
+	font-size:20px;
+	font-family:montserratmedium;
+	width:auto;
+	font-weight:bold;
+}
+
+/* header.masthead .overlay { */
+  /* position: absolute; */
+  /* background-color: #212529; */
+  /* height: 100%; */
+  /* width: 100%; */
+  /* top: 0; */
+  /* left: 0; */
+  /* opacity: 0.3; */
+/* } */
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+/* @media (min-width: 768px) { */
+  /* header.masthead { */
+    /* padding-top: 2rem; */
+    /* padding-bottom: 2rem; */
+  /* } */
+  /* header.masthead h1 { */
+    /* font-size: 3rem; */
+  /* } */
+/* } */
+
+@font-face {
+    font-family: 'allerbold';
+    src: url('aller_bd.eot');
+    src: url('aller_bd.eot?#iefix') format('embedded-opentype'),
+         url('aller_bd.woff2') format('woff2'),
+         url('aller_bd.woff') format('woff'),
+         url('aller_bd.ttf') format('truetype'),
+         url('aller_bd.svg#allerbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('montserrat-medium.eot');
+    src: url('montserrat-medium.eot?#iefix') format('embedded-opentype'),
+         url('montserrat-medium.woff2') format('woff2'),
+         url('montserrat-medium.woff') format('woff'),
+         url('montserrat-medium.ttf') format('truetype'),
+         url('montserrat-medium.svg#montserratmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.font-aller {
+    font-family: 'allerbold';
+}
+
+.font-montserrat {
+    font-family: 'montserratmedium';
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+/* @media (min-width: 768px) { */
+  /* .showcase .showcase-text { */
+    /* padding: 7rem; */
+  /* } */
+/* } */
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
